@@ -1,0 +1,203 @@
+*{
+	
+	margin: 0;
+	padding:0;
+	font-family: 'Roboto', helvetica, arial, sans-serif;
+
+	
+	
+}
+.tab {
+	width: 100%;
+	position: relative;
+	
+	
+}
+.navbar{
+	width: 100%;
+	height : 60px;
+	display: flex;
+	align-items: centre;
+	background: rgba(29,33,61,0.5);
+	padding: 0 60px;
+	box-sizing: border-box;
+	
+}
+nav{
+	flex: 1;
+	
+	
+}
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 60px;
+	margin-top : 20px;
+	
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	
+	
+}
+
+
+
+.videosdiv{
+	width: 900px; 
+	height: 100px; 
+	background-color: #FFF ; 
+	border-bottom:1px solid #ccc;
+	
+	
+}
+.videosdiv:hover {
+	
+	background-color: #f2f2f2 ; 
+	
+	
+}
+.container {
+	font-family: Arial, Helvetica, san-serif;
+	/*padding: 10px;*/
+	/*position: absolute;*/
+	
+	
+}
+.container2 {
+	font-family: Arial, Helvetica, san-serif;
+	/*padding: 10px;*/
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	transform: translate(-50%, -50%);
+	
+	
+}
+.container2{
+	background: #fff;
+	width: 410px;
+	padding: 30px;
+	
+}
+input[type=text],input[type=password]{
+	width: 70%;
+	position: static;
+	padding: 15px;
+	margin-top : 5px;
+	
+	margin-left : 200px;
+	display : inline-block;
+	border: 2px solid gray;
+	border-radius : 5px;
+	background: #f1f1f1;
+	
+}
+input[type=text]:focus{
+	background-color: #ddd;
+	outline: none;
+	
+}
+hr{
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+.register{
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	margin: 8px 0;
+	margin-left: 150px;
+	border: none;
+	cursor: pointer;
+	width: 91%;
+	opacity: 0.9;
+	
+}
+
+.register:hover{
+	opacity: 1;
+	
+}
+.Login{
+	font-family: Arial, Helvetica, san-serif;
+	
+	
+}
+* {box-sizing: border-box}
+.tab {
+  overflow : hidden;
+  border: 1px solid #ccc;
+  background-color : #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  
+  background-color: inherit;
+  float : left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding : 14px 16px;
+  transition: 0.3s;
+}
+
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+.card{
+	box-shadow : 0 4px 8px rgba(0,0,0,0.2);
+	max-width : 700px;
+	max-height: 950px;
+	margin: auto;
+	text-align : center;
+	font-family: arial;
+	
+}
+
+.userDetails{
+	
+	color: black;
+	font-size : 30px;
+	
+}
+
+/* Style the tab content */
+
+
+/*..tab li{
+	background-color : inherit;
+	display : block;
+	float : left;
+	border : none;
+	outline : none;
+	cursor : pointer;
+	padding : 14px 16px;
+	transition : 0.3s ;
+	font-size : 17px;
+}
+.tab list:hover {
+	background-color : #ddd;
+
+}
+.tab list.active{
+	background-color : #ccc;
+}
+.tabcontent {
+	display : none;
+	padding : #6px 12px;
+	border : 1px solid #ccc;
+	border-top :none;
+}
+
+*/
